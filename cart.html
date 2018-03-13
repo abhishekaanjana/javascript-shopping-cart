@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <title>cart</title>
+        
+    </head>
+    <body>
+        <h1>Shopping Cart</h1>
+        
+        <div>
+            <ul>
+                <li><a class="add-to-cart" href="#" data-name="Apple" data-price="30">Apple :  -- $30</a></li>
+                <li><a class="add-to-cart" href="#" data-name="Banana" data-price="20">Banana :-- $20</a></li>
+                <li><a class="add-to-cart"  href="#" data-name="Shoe" data-price="300">Shoe : -- $300</a></li>
+                <li><a class="add-to-cart"  href="#" data-name="Frisbee" data-price="150">Frisbee : -- $150</a></li>
+                <li><a class="add-to-cart"  href="#" data-name="Pear" data-price="40">Pear : -- $40</a></li>
+                <li><a class="add-to-cart"  href="#" data-name="Milkybar" data-price="5">Milkybar : -- $5</a></li>
+                <li><a class="add-to-cart"  href="#" data-name="Tape" data-price="10">Tape : -- $10</a></li>
+                <li><a class="add-to-cart"  href="#" data-name="Sticky-notes" data-price="30">Sticky-notes : -- $30</a></li>
+            </ul>
+            <button id="clear-cart">Clear Cart</button>
+        </div>
+        
+        <div>
+            <ul id="show-cart">
+               <li>?</li>
+            </ul>
+            <div>You Have <span id="count-cart">X</span> items in your cart</div>
+            <div>Total cart:$<span id="total-cart"></span>
+            </div>
+        </div>
+        
+        
+        <script
+			  src="http://code.jquery.com/jquery-2.2.4.js"
+			  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+			  crossorigin="anonymous"></script>
+        
+        
+        <script src="js/cart.js"></script>
+        
+    </body>
+</html>
